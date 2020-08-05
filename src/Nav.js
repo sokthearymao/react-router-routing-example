@@ -12,6 +12,9 @@ function Nav() {
       <nav>
           <h3>Logo</h3>
           <ul className="nav-Links">
+              <Link style={navStyle} to='/'>
+                <li>Home</li>
+              </Link>
               <Link style={navStyle} to='/about'>
                 <li>About</li>
               </Link>
